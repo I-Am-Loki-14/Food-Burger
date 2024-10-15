@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  .navlinks {
+    display: none;
+  }
+  .navlinks {
+    position: absolute;
+    display: block;
+    right: 0;
+    left: 0;
+    top: 72px;
+    padding: 1rem 0;
+    background-color: #bbf7d0;
+    clip-path: polygon(100% 0%, 100% 100%, 0 0%, 100% 100%);
+    transition: 0.4s all ease-in-out;
+  }
+  .navlinks a {
+    display: block;
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+  .navlinks a:hover {
+    color: green;
+  }
+  .show {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
