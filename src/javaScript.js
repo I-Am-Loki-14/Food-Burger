@@ -4,6 +4,7 @@ const navlinks = document.getElementById('navlinks');
 console.log(navlinks);
 
 menubar.addEventListener('click', ()=>{
-    navlinks.classList.toggle('show')
+    navlinks.classList.toggle('show');
+    
 })
 
