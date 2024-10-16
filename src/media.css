@@ -2,6 +2,9 @@
   .navlinks {
     display: none;
   }
+  .menubar {
+    display: block;
+  }
   .navlinks {
     position: absolute;
     display: block;
